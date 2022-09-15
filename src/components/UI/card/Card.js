@@ -3,7 +3,7 @@ import { StyledCard } from './StyledCard'
 
 const Card = ({ children }) => {
     return (
-        <StyledCard>{children}</StyledCard>
+        <StyledCard tabIndex={0} role='group'>{children}</StyledCard>
     )
 }
 
