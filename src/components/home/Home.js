@@ -1,12 +1,13 @@
 import React from 'react'
 import EventsList from '../events/EventsList'
+import { StyledHome } from './StyledHome'
+import Spinner from '../spinner/Spinner'
 
-
-const Home = ({ events }) => {
+const Home = ({ loaded, events }) => {
     return (
-        <>
-            <EventsList events={events} />
-        </>
+        <StyledHome>
+            {!loaded ? <Spinner loadingMsg='Loading events...' /> : <EventsList events={events} />}
+        </StyledHome>
     )
 }
 
