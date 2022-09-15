@@ -8,11 +8,8 @@
   margin: 0;
   box-sizing: border-box;
   outline-color: #383B58;
-  
 }
 
 body {
-  background-color: #F3F1ED;
   font-family:'Quicksand','Roboto', sans-serif;  
-  height: 100vh;
 }
