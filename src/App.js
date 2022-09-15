@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from 'react-router-dom'
 import Home from "./components/home/Home";
+import { StyledTemplateResponsive } from "./components/template/StyledTemplateResponsive";
 import { AxiosInstance } from "./helpers/AxiosHelper";
 
 function App() {
@@ -21,12 +22,12 @@ function App() {
 
 
   return (
-    <>
+    <StyledTemplateResponsive>
       <Routes>
         <Route path="/" element={<Home loaded={loaded} events={events} />} />
         <Route path="/challenge-mutant" element={<Home loaded={loaded} events={events} />} />
       </Routes>
-    </>
+    </StyledTemplateResponsive>
   );
 }
 
