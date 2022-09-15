@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/challenge-mutant/static/css/main.ae71a991.css",
-    "main.js": "/challenge-mutant/static/js/main.7ff1da84.js",
+    "main.css": "/challenge-mutant/static/css/main.bd747d44.css",
+    "main.js": "/challenge-mutant/static/js/main.30cb8d18.js",
     "index.html": "/challenge-mutant/index.html",
-    "main.ae71a991.css.map": "/challenge-mutant/static/css/main.ae71a991.css.map",
-    "main.7ff1da84.js.map": "/challenge-mutant/static/js/main.7ff1da84.js.map"
+    "main.bd747d44.css.map": "/challenge-mutant/static/css/main.bd747d44.css.map",
+    "main.30cb8d18.js.map": "/challenge-mutant/static/js/main.30cb8d18.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae71a991.css",
-    "static/js/main.7ff1da84.js"
+    "static/css/main.bd747d44.css",
+    "static/js/main.30cb8d18.js"
   ]
 }
