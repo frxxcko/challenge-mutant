@@ -1,7 +1,7 @@
 import React from 'react'
 import EventsList from '../events/EventsList'
-import { StyledHome } from './StyledHome'
 import Spinner from '../spinner/Spinner'
+import { StyledHome } from './StyledHome'
 
 const Home = ({ loaded, events }) => {
     return (
