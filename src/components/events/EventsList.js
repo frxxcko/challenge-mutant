@@ -3,7 +3,6 @@ import EventItem from './EventItem'
 import { EventListContainer, StyledTitle } from './StyledEvent'
 
 const EventsList = ({ events }) => {
-    console.log(events);
     return (
         <>
             <StyledTitle>Events</StyledTitle>
