@@ -1,9 +1,9 @@
 import React from 'react'
 import { StyledCard } from './StyledCard'
 
-const Card = ({ children }) => {
+const Card = ({ children, onClick }) => {
     return (
-        <StyledCard tabIndex={0} role='group'>{children}</StyledCard>
+        <StyledCard onClick={onClick} tabIndex={0} role='group'>{children}</StyledCard>
     )
 }
 
