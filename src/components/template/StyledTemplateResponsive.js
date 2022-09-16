@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
 export const StyledTemplateResponsive = styled.div`
-    @media screen and (max-width: 468px){
+    a{
+        text-decoration: none;
+    }
+    @media screen and (max-width: 414px){
         display: flex;
         justify-content: center;
+        margin-top: 100px;
         div{
             margin-right: 10px;
             display: flex;
@@ -13,5 +17,8 @@ export const StyledTemplateResponsive = styled.div`
                 width: 100vw;
             }
         }
-    }
+        h1{
+            font-size: 2rem;
+        }
+}
 ` 
