@@ -1,4 +1,4 @@
-# Expenses App using React JS 
+# List of Events App built with React JS 
 
 Deploy at: https://frxxcko.github.io/challenge-mutant
 
